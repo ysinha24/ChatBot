@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 24/7", "Our hours are 24/7 every day"]
+        },
+
+        {"tag": "computing",
+          "patterns": ["What data science you guys do?", "What are your data services?", "What technology consulting do you do?",
+             "How can you help my company's technological component?","What technology solutions do you do?"],
+          "responses": ["We offer a variety of services such as data mining and advanced analytics", "Blockchain, Iot, and machine learning consulting are some our specialities. See our sevices tab "]
+        },
+
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+
+        {"tag": "supplychain",
+         "patterns": ["How can you help my business?", "What business solutions do you do?", "What are analytics do you offer?"],
+         "responses": ["We are a select group of highly qualified Supply Chain experts with deep expertise in process, IT and business strategy",
+           "We partner with a network of consultants and organizations to provide you with the best ideas and solutions from the best in industry"]
+        },
+
+        {"tag": "training",
+          "patterns": ["What training do you offer?", "How will I learn more about these fields?", "Do you teach courses so professionals can learn to understand these fields?"],
+          "responses": ["We offer for those who would like to understand technologies behind the business front. More on our services tab",
+            "Our knowledge delivery is uniquely blended and tailored with targeted academics and industry application to maximize the value of your time and yet delivering a prudent learning."]
+        },
+
+        {"tag": "information",
+         "patterns": ["more information"],
+         "responses": ["For more information about our services please call 901-255-2744", "Please call 901-255-2744 for more information about our operation", "visit out services tab"],
+         "context_filter": "rentalday"
+
+        }
+
+   ]
+
+}
